@@ -147,10 +147,9 @@ const email = document.querySelectorAll('.emails');
 const images = document.querySelectorAll('.img');
 buttonfetchfunctionality = document.getElementById('gofetch')
 
+
+
 function fetchinglogic() {
-
-  
-
   fetch("https://randomuser.me/api/?results=3")
     .then((rawdata) => {
       return rawdata.json();
