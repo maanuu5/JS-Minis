@@ -1,0 +1,143 @@
+.button{
+width: 100px;
+height: 100px;
+border-radius: 20px;
+color: transparent;
+border: 10px solid black;
+}
+
+#grey{
+    background-color: grey;
+
+}
+#olive{
+    background-color: olive;
+}
+#beige{
+    background-color: beige;
+}
+#darkgoldenrod{
+background-color: darkgoldenrod;
+}
+#blue{
+background-color: blue;
+}
+#green{
+background-color: green;
+}
+
+body {
+  transition: background-color 0.4s ease;
+   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.buttoncal{
+  padding: 0.75em 2em;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #1c0336 0%, #022562 100%);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(38, 104, 227, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.clocks{
+  font-size: 40px;
+  font-family: 'Share Tech Mono', monospace;
+  color: #00ffcc;
+  background-color: #000;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #00ffcc;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+#guess {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  width: 200px;
+  transition: border-color 0.2s;
+}
+
+#guess:focus {
+  border-color: #888;
+}
+
+#subt {
+  padding: 10px 20px;
+  width: 150px;
+  background-color: #4a90e2; 
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#subt:hover {
+  background-color: #3a78c2; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.butt{
+    padding: 10px 20px;
+  width: 150px;
+  background-color: #4a90e2; 
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.emails {
+  word-break: break-all;
+}
+
+
+#gofetch {
+
+  padding: 8px 16px; 
+  white-space: nowrap; 
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#gofetch:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.tododivclass{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  
+}
+
+   #todolist {
+      display: flex; 
+      flex-direction: column; 
+      gap: 20px; 
+    }
